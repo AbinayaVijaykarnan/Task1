@@ -1,0 +1,74 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(54, 53, 53);
+}
+
+h1{
+    color:rgba(255, 255, 255, 0.493);
+}
+.container{
+    background-color:rgba(0, 0, 0, 0.959);
+    position:absolute;
+    top:10vh;
+    margin-left:10%; /*instead of margin:0 auto these 2 steps used*/
+    margin-right:10%;
+}
+
+
+.div1 h2,.div2 h2, .div3 h2{
+    text-align: center;
+}
+.div1, .div2, .div3{
+    border:1px solid white;
+    border-radius:20px;
+    padding:20px;
+}
+.div1 {
+    background-color: rgba(255, 0, 0, 0.918);
+    margin-left:10%;
+    margin-right:70%;
+    margin-top:0;
+}
+.div2{
+    background-color: rgba(0, 0, 255, 0.945);
+    margin-left:40%;
+    margin-right:40%;
+    position: absolute;
+    top:0;
+}
+.div3{
+    background-color: rgba(0, 128, 0, 0.952);
+    margin-left:70%;
+    margin-right:10%;
+    position: absolute;
+    top:0;
+}
+
+
+.image1{
+  background-image: url('images/greensofa.jpg');
+}
+.image2{
+    background-image: url('images/yellowsofa.jpg');
+}
+.image3{
+    background-image: url('images/redsofa.jpeg');
+}
+
+.image1, .image2, .image3{
+    background-size: cover;
+    margin:10px 0;
+    padding:50px; /*used as width and height of background image */
+}
+
+
+.div1 button,.div2 button,.div3 button{
+    color:rgba(255, 255, 255);
+    background-color: rgb(59, 58, 58);
+    margin:5px;
+    padding:5px;
+}
