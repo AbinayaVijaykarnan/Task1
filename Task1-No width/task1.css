@@ -9,16 +9,56 @@ body{
 
 h1{
     color:rgba(255, 255, 255, 0.493);
+    text-align: center;
 }
+                                        /* nav-bar*/
+.nav-bar{
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    margin:30px 0;
+}
+.nav-bar a{
+    color:rgb(255,255,255);
+    background-color:rgba(151, 218, 18, 0.911);
+    border-radius: 10px;
+    text-decoration:none;
+    font-weight:normal;
+    padding:10px 30px;
+    margin:0 20px;
+}
+.nav-bar a:hover{
+    color:rgba(0, 0, 0, 0.89);
+    background-color: rgb(151, 218, 18);
+}
+
+                                    /*heading and cover image*/
+.heading-cover h1{
+    color: rgb(255,255,255);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:2rem;
+    font-weight:normal;
+    text-align: center;
+}
+.heading-cover::first-letter{
+    color:rgb(151, 218, 18);
+}
+.heading-cover #image{
+    margin-left:10%;
+    margin-right:10%;
+    margin-top:2%;
+    padding:250px;
+    background-image:url('images/redsofa1.jpg')
+}
+
+             /*Using margins for column spacing without adjusting the width*/
+
 .container{
     background-color:rgba(0, 0, 0, 0.959);
     position:absolute;
-    top:10vh;
+    top:110vh;
     margin-left:10%; /*instead of margin:0 auto these 2 steps used*/
     margin-right:10%;
 }
-
-
 .div1 h2,.div2 h2, .div3 h2{
     text-align: center;
 }
